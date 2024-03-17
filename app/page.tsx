@@ -26,7 +26,6 @@ export default function Home() {
         total={2}
         Change={(x: number) => {
           x > 2 ? toggleDirty(true) : setPageCurrent(x);
-          toggleDirty(false);
         }}
       />
     </main>

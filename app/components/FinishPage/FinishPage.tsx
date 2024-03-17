@@ -37,7 +37,8 @@ const FinishPage = (props: any) => {
         system
       </p>
       <p className="mt-4">
-        he demonstrated a portfolio value of {props?.data?.salary} dollars
+        he demonstrated a portfolio value of{" "}
+        {parseInt(props?.data?.salary) + parseInt(props?.data?.shares)} dollars
       </p>
     </div>
   );
